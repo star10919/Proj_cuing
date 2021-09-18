@@ -1,0 +1,14 @@
+obj_data =open('data/obj.data','w',encoding='utf-8')
+
+obj_data.write(data)
+
+obj_data.close() 
+data = '''갈비탕
+garaetteok
+dotorimuk'''
+
+obj_data =open('data/obj.names','w',encoding='utf-8')
+
+obj_data.write(data)
+
+obj_data.close() 
