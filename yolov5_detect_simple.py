@@ -10,7 +10,7 @@ from utils.datasets import letterbox
 from utils.general import check_img_size, check_requirements, non_max_suppression, scale_coords
 from utils.plots import plot_one_box
 from utils.torch_utils import select_device, time_synchronized
-  
+ 
 
 SOURCE = 'data/images/haein.jpg'
 WEIGHTS = 'yolov5s.pt'      # yolov5s, yolov5m, yolov5l, yolov5x
