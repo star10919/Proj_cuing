@@ -1,0 +1,4 @@
+python detect.py --source C:/DEV_TOOL/yolov5/data/images/fooddataset/test/images/ --weights C:/DEV_TOOL/yolov5/runs/train/exp7/weights/best.pt --img 640
+
+python train.py --img 640 --batch 16 --epochs 5 --data coco128.yaml --weights yolov5s.pt
+
